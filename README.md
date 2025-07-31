@@ -10,7 +10,7 @@ sudo apt install docker.io -y
 sudo systemctl start docker
 sudo systemctl enable docker
 
-git clone https://github.com/recancan/docker-monitoring.git
+git clone https://github.com/recancan/monitoring-server.git
 cd docker-monitoring
 chmod +x auto-prom-node.sh
 ./auto-prom-node.sh
